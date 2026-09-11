@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas de Oliveira Martins | Technical Artist & Unreal Engine Engineer</title>
+  <meta name="description" content="Resume and portfolio of Lucas de Oliveira Martins, Technical Artist & Unreal Engine Engineer specializing in Art Integration, Shader Development, Profiling, and Real-Time Optimization.">
+  <meta name="keywords" content="Technical Artist, Unreal Engine, UE5, UE4, Shader Authoring, HLSL, GPU Profiling, RenderDoc, Meta Quest, VR, Blueprints, Lucas Martins">
+  <meta name="author" content="Lucas de Oliveira Martins">
+  <meta property="og:title" content="Lucas de Oliveira Martins - Technical Artist & UE Engineer">
+  <meta property="og:description" content="Technical Artist and Unreal Engine Engineer with 4+ years bridging art pipelines and engine performance.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background FX -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Header / Nav Actions -->
+  <header class="top-nav" id="top-nav">
+    <div class="nav-container">
+      <div class="brand">
+        <span class="ue-badge">UE5 / UE4</span>
+        <span class="brand-name">Lucas Martins</span>
+      </div>
+      <div class="nav-actions">
+        <button id="copy-link-btn" class="btn btn-secondary" title="Copy shareable link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+          <span>Share Link</span>
+        </button>
+        <button id="open-pdf-modal-btn" class="btn btn-secondary" title="Preview Original PDF">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          <span>Preview PDF</span>
+        </button>
+        <a href="ResumeTechnicalUnrealEngine.pdf" download="ResumeTechnicalUnrealEngine.pdf" class="btn btn-primary" id="download-pdf-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Download PDF</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="page-container">
+    <!-- Hero Profile Card -->
+    <section class="hero-card" id="hero">
+      <div class="hero-top">
+        <div class="hero-identity">
+          <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for Opportunities • Open to Remote</span>
+          </div>
+          <h1 class="candidate-name">LUCAS DE OLIVEIRA MARTINS</h1>
+          <div class="candidate-title">
+            <span class="title-highlight">Technical Unreal Engine</span>
+            <span class="title-sep">|</span>
+            <span>Art Integration & Optimization</span>
+          </div>
+          <p class="candidate-location">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Curitiba, PR, Brazil (Open to Remote Worldwide)
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:lucas_omartins@hotmail.com" class="contact-chip" title="Send Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>lucas_omartins@hotmail.com</span>
+          </a>
+          <a href="tel:+5541997150331" class="contact-chip" title="Direct Phone / WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>+55 41 997150331</span>
+          </a>
+          <a href="https://linkedin.com/in/lucas-d-986b66b6" target="_blank" rel="noopener noreferrer" class="contact-chip highlight-linkedin" title="LinkedIn Profile">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <span>LinkedIn Profile</span>
+          </a>
+          <a href="https://lucasdeoliveiramartins.artstation.com" target="_blank" rel="noopener noreferrer" class="contact-chip highlight-artstation" title="ArtStation Portfolio">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 22 22 22"></polygon></svg>
+            <span>ArtStation Portfolio</span>
+          </a>
+          <a href="https://github.com/dashlucas" target="_blank" rel="noopener noreferrer" class="contact-chip highlight-github" title="GitHub Profile">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <span>GitHub Profile</span>
+          </a>
+          <a href="https://instagram.com/o_burnverso" target="_blank" rel="noopener noreferrer" class="contact-chip" title="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            <span>@o_burnverso</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="metrics-strip">
+        <div class="metric-item">
+          <span class="metric-val">4+ Years</span>
+          <span class="metric-lbl">Technical Art & UE</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">UE4 / UE5</span>
+          <span class="metric-lbl">Engine Mastery</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">Meta Quest & VR</span>
+          <span class="metric-lbl">Mobile Performance Budgets</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">RenderDoc / Insights</span>
+          <span class="metric-lbl">GPU/CPU Profiling & Shaders</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Summary -->
+    <section class="section-card" id="summary">
+      <div class="section-header">
+        <div class="section-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+        </div>
+        <h2>PROFESSIONAL SUMMARY</h2>
+      </div>
+      <p class="summary-text">
+        Technical Artist and UE Engineer with <strong>4+ years of experience</strong> bridging the gap between art pipelines and engine performance. Specialist in <strong>Unreal Engine (C++ / Blueprints)</strong>, proficient in <strong>shader authoring</strong>, <strong>GPU profiling with RenderDoc</strong>, and <strong>cross-platform optimization (Mobile/VR)</strong>. Proven track record of delivering high-performance interactive experiences by solving complex rendering bottlenecks and automating art workflows.
+      </p>
+    </section>
+
+    <!-- Professional Experience -->
+    <section class="section-card" id="experience">
+      <div class="section-header">
+        <div class="section-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        </div>
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="experience-header">
+            <div>
+              <h3 class="company-name">Aeon VR</h3>
+              <div class="job-role">Technical Artist & UE Programmer</div>
+            </div>
+            <div class="job-meta">
+              <span class="job-date">April 2022 — April 2026</span>
+              <span class="job-loc">Curitiba, PR, Brazil</span>
+            </div>
+          </div>
+
+          <ul class="achievement-list">
+            <li>
+              <div class="bullet-tag">Pipeline</div>
+              <div>
+                <strong>Art-to-Engine Pipeline:</strong> Owned the integration workflow for 3D environments and assets, ensuring visual fidelity while maintaining strict performance budgets for Meta Quest and Android platforms.
+              </div>
+            </li>
+            <li>
+              <div class="bullet-tag">Optimization</div>
+              <div>
+                <strong>Rendering & Optimization:</strong> Executed GPU/CPU profiling passes to identify and fix bottlenecks related to draw calls, overdraw, and shader complexity.
+              </div>
+            </li>
+            <li>
+              <div class="bullet-tag">Instancing</div>
+              <div>
+                <strong>Technical Animation & Instancing:</strong> Implemented and optimized rendering solutions using Instanced Static Meshes (ISM) and modular kits to handle high asset counts efficiently.
+              </div>
+            </li>
+            <li>
+              <div class="bullet-tag">Shaders</div>
+              <div>
+                <strong>Shader Development:</strong> Experience with custom materials and HLSL expressions in Unreal Engine, focusing on PBR standards, channel-packed masks, and optimized transparency.
+              </div>
+            </li>
+            <li>
+              <div class="bullet-tag">Automation</div>
+              <div>
+                <strong>Tooling & Automation:</strong> Developed internal tools and Blueprints to automate repetitive integration tasks, reducing manual errors and increasing art team velocity.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix -->
+    <section class="section-card" id="skills">
+      <div class="section-header">
+        <div class="section-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        </div>
+        <h2>TECHNICAL SKILLS</h2>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Group 1 -->
+        <div class="skill-category-card">
+          <div class="cat-title">
+            <span class="cat-badge">Core Engine</span>
+            <h3>Unreal Engine Mastery</h3>
+          </div>
+          <ul class="skill-tags">
+            <li class="tag featured">Unreal Engine 5 (UE5)</li>
+            <li class="tag featured">Unreal Engine 4 (UE4)</li>
+            <li class="tag featured">Blueprints (Advanced)</li>
+            <li class="tag">C++ (Junior)</li>
+            <li class="tag">Material Editor (HLSL & Nodes)</li>
+            <li class="tag">Sequencer</li>
+          </ul>
+        </div>
+
+        <!-- Group 2 -->
+        <div class="skill-category-card">
+          <div class="cat-title">
+            <span class="cat-badge">Performance</span>
+            <h3>Rendering & Optimization</h3>
+          </div>
+          <ul class="skill-tags">
+            <li class="tag featured">GPU/CPU Profiling</li>
+            <li class="tag featured">Unreal Insights</li>
+            <li class="tag featured">RenderDoc</li>
+            <li class="tag">Draw Call Reduction</li>
+            <li class="tag">Overdraw Elimination</li>
+            <li class="tag">PBR Workflow & Shading</li>
+          </ul>
+        </div>
+
+        <!-- Group 3 -->
+        <div class="skill-category-card">
+          <div class="cat-title">
+            <span class="cat-badge">Architecture</span>
+            <h3>Pipeline & Automation</h3>
+          </div>
+          <ul class="skill-tags">
+            <li class="tag featured">Git / Version Control</li>
+            <li class="tag">Tooling & Blueprint Scripts</li>
+            <li class="tag">Shader/Material Optimization</li>
+            <li class="tag">Technical Documentation</li>
+            <li class="tag">Modular Asset Kits</li>
+            <li class="tag">Instanced Static Meshes (ISM)</li>
+          </ul>
+        </div>
+
+        <!-- Group 4 -->
+        <div class="skill-category-card">
+          <div class="cat-title">
+            <span class="cat-badge">Art & DCC</span>
+            <h3>3D Art & DCC Integration</h3>
+          </div>
+          <ul class="skill-tags">
+            <li class="tag">Hard-Surface Modeling</li>
+            <li class="tag">Substance 3D Painter</li>
+            <li class="tag">Adobe Photoshop</li>
+            <li class="tag">Digital Sculpting</li>
+            <li class="tag">UV Packing & Tiling Discipline</li>
+            <li class="tag">Channel-Packed Masks</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Portfolio & Projects (with Video Showcase) -->
+    <section class="section-card" id="portfolio">
+      <div class="section-header">
+        <div class="section-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+        </div>
+        <h2>FEATURED PROJECTS & VIDEO SHOWCASE</h2>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: BRX -->
+        <div class="project-card">
+          <div class="video-container">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/ZCTbNF5RaJw" 
+              title="BRX - Interactive Experience" 
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="project-info">
+            <div class="project-meta-bar">
+              <span class="proj-badge">Multiplatform Interactive</span>
+              <a href="https://www.youtube.com/watch?v=ZCTbNF5RaJw" target="_blank" rel="noopener noreferrer" class="proj-ext-link" title="Watch on YouTube">
+                YouTube ↗
+              </a>
+            </div>
+            <h3 class="proj-title">BRX</h3>
+            <p class="proj-desc">High-performance multiplatform interactive experience designed for seamless real-time rendering and responsive gameplay mechanics.</p>
+          </div>
+        </div>
+
+        <!-- Project 2: Fitmass -->
+        <div class="project-card">
+          <div class="video-container">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/P5yV7_p0bDU" 
+              title="Fitmass - Interactive Experience" 
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="project-info">
+            <div class="project-meta-bar">
+              <span class="proj-badge">Cross-Platform / Optimization</span>
+              <a href="https://www.youtube.com/watch?v=P5yV7_p0bDU" target="_blank" rel="noopener noreferrer" class="proj-ext-link" title="Watch on YouTube">
+                YouTube ↗
+              </a>
+            </div>
+            <h3 class="proj-title">Fitmass</h3>
+            <p class="proj-desc">High-performance multiplatform interactive experience with optimized art pipelines, responsive physics, and high visual fidelity under strict constraints.</p>
+          </div>
+        </div>
+
+        <!-- Project 3: GT Building -->
+        <div class="project-card">
+          <div class="video-container">
+            <iframe 
+              src="https://www.youtube-nocookie.com/embed/U6u5pjk-Mnc" 
+              title="GT Building - Architectural Visualization" 
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="project-info">
+            <div class="project-meta-bar">
+              <span class="proj-badge">ArchViz / Real-Time Lighting</span>
+              <a href="https://www.youtube.com/watch?v=U6u5pjk-Mnc" target="_blank" rel="noopener noreferrer" class="proj-ext-link" title="Watch on YouTube">
+                YouTube ↗
+              </a>
+            </div>
+            <h3 class="proj-title">GT Building</h3>
+            <p class="proj-desc">Real-time architectural visualization focusing on advanced lighting techniques, physical shaders, and high-fidelity material polish.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- External Portfolio Callout -->
+      <div class="portfolio-banner">
+        <div class="banner-text">
+          <h4>Looking for more 3D artwork and breakdowns?</h4>
+          <p>Explore high-res models, material studies, and scene breakdowns on ArtStation.</p>
+        </div>
+        <a href="https://lucasdeoliveiramartins.artstation.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <span>View ArtStation Portfolio</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Education & Languages -->
+    <div class="two-col-grid">
+      <!-- Education -->
+      <section class="section-card" id="education">
+        <div class="section-header">
+          <div class="section-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+          </div>
+          <h2>EDUCATION</h2>
+        </div>
+        <div class="edu-block">
+          <h3 class="institution-name">Universidade Federal do Paraná (UFPR)</h3>
+          <div class="degree-title">Bachelor's Degree in Graphic Expression</div>
+          <div class="edu-date">2019 — 2024 • Curitiba, PR, Brazil</div>
+          <p class="edu-desc">Focus on 3D design, spatial layout, and technical visual fundamentals for real-time rendering and programming.</p>
+        </div>
+      </section>
+
+      <!-- Languages -->
+      <section class="section-card" id="languages">
+        <div class="section-header">
+          <div class="section-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          </div>
+          <h2>LANGUAGES</h2>
+        </div>
+        <div class="lang-list">
+          <div class="lang-item">
+            <div class="lang-header">
+              <span class="lang-name">English</span>
+              <span class="lang-level">Professional / Fluent</span>
+            </div>
+            <div class="lang-bar"><div class="lang-progress" style="width: 90%;"></div></div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-header">
+              <span class="lang-name">Portuguese</span>
+              <span class="lang-level">Native</span>
+            </div>
+            <div class="lang-bar"><div class="lang-progress" style="width: 100%;"></div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- PDF Preview Modal -->
+  <div class="modal-overlay" id="pdf-modal" aria-hidden="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <span>ResumeTechnicalUnrealEngine.pdf</span>
+        </div>
+        <div class="modal-actions">
+          <a href="ResumeTechnicalUnrealEngine.pdf" target="_blank" class="btn btn-secondary btn-sm" title="Open in New Tab">
+            Open in Tab ↗
+          </a>
+          <button id="close-modal-btn" class="close-btn" title="Close modal">&times;</button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <iframe src="ResumeTechnicalUnrealEngine.pdf" title="Original PDF Resume" class="pdf-iframe"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="alert" aria-live="assertive">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg>
+    <span id="toast-text">Link copied to clipboard!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Lucas de Oliveira Martins. Technical Artist & Unreal Engine Engineer.</p>
+      <div class="footer-links">
+        <a href="ResumeTechnicalUnrealEngine.pdf" download>Download PDF</a>
+        <span>•</span>
+        <a href="https://github.com/dashlucas/resumetechnicalartistunrealengine" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
